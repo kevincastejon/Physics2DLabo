@@ -112,9 +112,9 @@ public class ObjectsThrower : MonoBehaviour
         _isStarted = false;
         DestroyImmediate(_rigidbodyA);
         DestroyImmediate(_rigidbodyB);
-        _transformA.position = new Vector3(-4f, 0f, 0f);
+        _transformA.position = new Vector3(-4.5f, 0f, 0f);
         _transformA.rotation = Quaternion.identity;
-        _transformB.position = new Vector3(4f, 0f, 0f);
+        _transformB.position = new Vector3(4.5f, 0f, 0f);
         _transformB.rotation = Quaternion.identity;
     }
 }
